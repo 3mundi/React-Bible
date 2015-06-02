@@ -1,0 +1,14 @@
+{
+  "name": "React with Third Party Libraries",
+  "version": "0.0.1",
+  "authors": [
+    "Joe Maddalone <joe@insert-title.com>"
+  ],
+  "description": "Examples of React working together with reqwest, D3, and Angular",
+  "dependencies": {
+    "angular": "~1.2.14",
+    "d3": "~3.4.3",
+    "react": "~0.9.0",
+    "reqwest": "~1.1.0"
+  }
+}

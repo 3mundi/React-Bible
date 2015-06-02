@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>r12</title>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.13.2/JSXTransformer.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/react/0.13.2/react-with-addons.js"></script>
+
+</head>
+<body>
+<div id="exampleJSX"></div>
+<script type="text/jsx">
+    var Title =
+            React.createClass({
+                render:function(){
+                    return <h1 {...this.props} id="message">Hello World!</h1>
+                }
+            });
+
+    var APP =
+            React.createClass({
+                render:function(){
+                    return <div><Title className="red" /></div>
+                }
+            });
+
+
+    React.render(<APP />, document.getElementById('exampleJSX'));
+
+</script>
+<hr>
+
+<div id="exampleNoJSX"></div>
+
+<script>
+    var d = React.DOM;
+
+    var Title =
+            React.createClass({
+                displayName: 'Title',
+                render: function(){
+                    this.props.id="message"
+                    return d.h1(this.props, "Howdy World");
+                }
+            });
+
+    var APP =
+            React.createClass({
+                displayName: 'APP',
+                render: function(){
+                    return d.div(null, React.createFactory(Title)({className:'blue'}));
+                }
+            });
+
+
+    React.render(React.createFactory(APP)(), document.getElementById('exampleNoJSX'));
+
+</script>
+
+</body>
+</html>
