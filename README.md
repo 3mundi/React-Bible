@@ -14,7 +14,7 @@ Most of this example are not taking in account the compilation of jsx assets. Ed
 
 ### Sources
 
-Some of the example are created by me, others are based on:
+Some of the example are created by me, others are based, curated, reworked or optimized on:
 
 Awesome [egghead.io](https://egghead.io/).
  
