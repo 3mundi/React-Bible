@@ -18,4 +18,3 @@ Some of the example are created by me, others are based on:
 
 Awesome [egghead.io](https://egghead.io/).
  
- 
