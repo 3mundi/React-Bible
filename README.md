@@ -12,7 +12,7 @@ Some of the examples requires **node**, so be sure to have it. Don't worry, for 
 
 Most of these examples are not taking in account the compilation of JSX assets. Educational purpose only at the moment.
 
-For running these examples in a stable and simple server, just install **httpster**
+To run these examples in a stable and simple server, just install **httpster**
 
 ```
 $ npm install -g httpster
