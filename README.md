@@ -2,15 +2,15 @@
 
 ## React Bible
 
-Welcome to React code snippet library. This project is created with educational purposes with the objective to have references and case studies to apply technological solutions with **React**.
+Welcome to React code snippet library. This project has been created for educational purposes with the goal of having references and case studies to apply technological solutions with **React**.
 
 ### How it works 
 
 Each folder is an isolated example.
 
-Some of the examples works with **node**, so be sure to have it. Don't worry, for complex example, I will create private readme files. 
+Some of the examples requires **node**, so be sure to have it. Don't worry, for complex examples, I will create private readme files. 
 
-Most of this example are not taking in account the compilation of jsx assets. Educational purpose only at the moment.
+Most of these examples are not taking in account the compilation of JSX assets. Educational purpose only at the moment.
 
 ### Sources
 
