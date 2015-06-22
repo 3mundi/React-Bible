@@ -22,7 +22,7 @@ var Slides = React.createClass({
     render:function(){
       var slide = this.state.slides[this.state.currentSlide]
       return (
-        <CTG transitionName="slide">
+        <CTG transitionName="slide" transitionAppear={true}>
         <div key={Math.random()} className="slide">
           <h1>{slide.title}</h1>
           <h3>{slide.subtitle}</h3>
