@@ -1,6 +1,0 @@
-.task.high {color: red;}
-.task.medium{color: blue;}
-.task.low {color: green;}
-.task.complete{
-  text-decoration: line-through;color:#ccc
-}
