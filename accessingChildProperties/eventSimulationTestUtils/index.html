@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>React Simulate</title>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/react/0.11.2/react-with-addons.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+  <script>
+    var test = React.addons.TestUtils;
+    var app = React.renderComponent(UpDown(), document.body);
+    test.Simulate.click(app.refs.inc.getDOMNode());
+  </script>
+</body>
+</html>

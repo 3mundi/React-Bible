@@ -1,0 +1,27 @@
+.slide {
+  position: absolute;
+  border:1px solid #ccc;
+  padding: 10px;
+  width: 400px;
+  height: 150px;
+  text-align:center;
+  top:5px;
+}
+
+.slide-enter {
+  top:-200px;
+  transition: all 0.5s;
+}
+.slide-enter-active{
+  top:5px;
+}
+
+.slide-leave {
+  top:5px;
+  transition: all 0.5s;
+}
+
+.slide-leave-active {
+  top:200px;
+  opacity:0;
+}
