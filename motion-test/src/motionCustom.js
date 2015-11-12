@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import {Motion, spring} from 'react-motion';
+import {Motion, spring, presets} from 'react-motion';
 
-class Animation2 extends Component {
+class MotionCustom extends Component {
   render(){
     return (
       <Motion
@@ -10,9 +10,8 @@ class Animation2 extends Component {
           z: 4
         }}
         style={{
-          y: spring(100),
-          z: spring(1),
-          config: presets.wobbly
+          y: spring(100, presets.wobbly),
+          z: spring(1, presets.wobbly),
         }}>
         {obj => {
           let style= {
@@ -29,4 +28,4 @@ class Animation2 extends Component {
   }
 }
 
-export default Animation2;
+export default MotionCustom;
