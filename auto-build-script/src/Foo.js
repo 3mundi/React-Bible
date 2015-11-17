@@ -4,7 +4,8 @@ class Foo extends Component {
   constructor(props) {
     super(props);
     this.state = {count: 0};
-    setInterval(::this.tick, 1000);
+    setInterval(::this.tick, 1000); // bind syntax ES7
+    // setInterval(this.tick.bind(this), 1000);
   }
 
   tick() {
