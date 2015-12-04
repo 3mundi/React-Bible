@@ -1,0 +1,34 @@
+{
+  "name": "react-inline-styles-example",
+  "version": "1.0.0",
+  "description": "An example of using inline styles with JSX in a React component",
+  "author": "Trevor D. Miller <trevordmiller@icloud.com> (www.trevordmiller.com)",
+  "license": "MIT",
+  "keywords": [
+  ],
+  "main": "dist/bundle.js",
+  "scripts": {
+    "lint": "eslint src webpack.config.js",
+    "build": "webpack",
+    "start": "webpack-dev-server --port 8181 --color",
+    "prepublish": "npm build"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+  },
+  "devDependencies": {
+    "pre-commit": "1.x.x",
+    "eslint": "1.x.x",
+    "eslint-plugin-react": "3.x.x",
+    "babel-core": "5.x.x",
+    "babel-loader": "5.x.x",
+    "react": "0.13.x",
+    "react-hot-loader": "1.x.x",
+    "file-loader": "0.8.x",
+    "webpack": "1.x.x",
+    "webpack-dev-server": "1.x.x",
+    "babel": "5.x.x"
+  }
+}
