@@ -2,7 +2,8 @@
 let nextTodoId = 0;
 
 // Action Creators
-const Creator = {
+// A set of functions that returns specific object functionality
+const TodoActions = {
   addTodo: (text) => {
     return {
       type: 'ADD_TODO',
@@ -25,4 +26,4 @@ const Creator = {
 };
 // Action Creators
 
-export default Creator;
+export default TodoActions;
